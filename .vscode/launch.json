@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+    {
+        "name": "Dart",
+        "type": "dart",
+        "request": "launch",
+        "program": "dart_control_flow.dart"
+    },
+        {
+            "name": "Dart: Run all Tests",
+            "type": "dart",
+            "request": "launch",
+            "program": "./test/"
+        },
+        {  
+            "name": "console_full_project",
+            "cwd": "console_full_project",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "calculator",
+            "cwd": "console_full_project/packages/calculator",
+            "request": "launch",
+            "type": "dart"
+        }
+    ]
+}
